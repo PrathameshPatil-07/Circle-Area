@@ -7,9 +7,9 @@ class Area{
 		System.out.println("Enter readious :");
 		float r=sc.nextFloat();
 		float p=22/7f;
-		float area=p*(r*r);
+		float area=p*r*r;
 		
 		
 		
-		System.out.print("Preremeter of Circle is :");
-		System.out.println(peremeter);
+		System.out.print("Area of Circle is :" + area);
+		
